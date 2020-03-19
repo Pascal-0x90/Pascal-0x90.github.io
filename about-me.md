@@ -9,7 +9,7 @@ This is a blog I have recently decided to start. I have no idea where it is goin
 
 ### <u>General Topics:</u>
 
-* Capture The Flag Events (#GoShellphish)
+* Capture The Flag Events (#Gopwndevils #GoShellphish)
 * Reverse Engineering
 * Things related to Penetration Testing
 * Video Games
