@@ -32,5 +32,5 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://pascal-0x90.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 social_links: true
-github: Pascal-0x90
-twitter: Pascal_0x90
+github: https://github.com/Pascal-0x90
+twitter: https://twitter.com/Pascal_0x90
