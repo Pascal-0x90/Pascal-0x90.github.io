@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: default
+title: About Me
 permalink: /about-me/
 ---
 ### <u>Hello World!</u>
