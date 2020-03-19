@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -17,7 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-remote_theme: son-link/jekyll-minimal-dark-orange 
+remote_theme: son-link/jekyll-minimal-dark-orange
 plugins:
 - jekyll-paginate
 - jekyll-seo-tag #if you use this.
@@ -34,6 +34,10 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://pascal-0x90.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Pascal_0x90
 github_username:  Pascal-0x90
+social_links: true
+github: true
+twitter: true
+
 #
 ## Build settings
 #theme: minima

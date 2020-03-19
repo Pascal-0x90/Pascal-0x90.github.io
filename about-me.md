@@ -22,5 +22,5 @@ My name is Nathan (***A.K.A Pascal***). I am a Computer Systems Engineering majo
 
 ### <u>Certifications:</u>
 
-OSCP (Offensive Security Certified Professional) March 2020
-Certificate of Insanity
+* OSCP (Offensive Security Certified Professional) March 2020
+* Certificate of Insanity
