@@ -23,7 +23,9 @@ plugins:
 - jekyll-seo-tag #if you use this.
 paginate: 10 # Posts per page
 paginate_path: "page:num/"
-
+header_pages:
+  - index.md
+  - about.md
 title: My Blog I Guess
 email: Pascal-0x90@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pre-Summer Thoughts"
+title: /pre_summer_thoughts
 date: 2020-05-19 7:00 -0700
 categories: Thoughts
 ---
