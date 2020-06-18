@@ -17,7 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-remote_theme: son-link/jekyll-minimal-dark-orange
+remote_theme: b2a3e8/jekyll-theme-console
 plugins:
 - jekyll-paginate
 - jekyll-seo-tag #if you use this.
