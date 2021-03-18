@@ -42,7 +42,7 @@
     }
     
     // Detect if the user is cool and uses dark mode
-    const htmlEl = document.getElementsByTagName('html')[0];
+    const htmlEl = document.getElementsByTagName('body')[0];
     const toggleTheme = (theme) => {
         htmlEl.dataset.theme = theme;
         localStorage.setItem("theme", theme);
