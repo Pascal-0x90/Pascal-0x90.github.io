@@ -44,7 +44,8 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
-    filter: invert(1) hue-rotate(180deg);
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
 
 

@@ -49,7 +49,9 @@
         try {
           img.dataset.theme = theme;
         } catch (err) {
-          console.log(err);
+          // Do nothing because we dont care
+          // if the page does not have an image.
+          //console.log(err);
         }
         localStorage.setItem("theme", theme);
     }
