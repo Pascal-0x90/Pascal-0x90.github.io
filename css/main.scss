@@ -50,6 +50,10 @@ body[data-theme='dark'] {
     height: 100%;
 }
 
+image[data-theme='dark'] {
+    filter: invert(1) hue-rotate(180deg);
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

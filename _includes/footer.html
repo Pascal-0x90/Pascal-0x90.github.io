@@ -43,8 +43,10 @@
     
     // Detect if the user is cool and uses dark mode
     const htmlEl = document.getElementsByTagName('body')[0];
+    const img = document.getElementsByTagName('image')[0];
     const toggleTheme = (theme) => {
         htmlEl.dataset.theme = theme;
+        img.dataset.theme = theme;
         localStorage.setItem("theme", theme);
     }
     if (window.matchMedia('(prefers-color-scheme: dark)').matches && localStorage.getItem("theme") == "dark") {
