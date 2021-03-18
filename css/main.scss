@@ -46,7 +46,8 @@ $on-laptop:        800px;
 
 body[data-theme='dark'] {
     background: #000;
-    filter: invert(1) hue-rotate(180deg)
+    filter: invert(1) hue-rotate(180deg);
+    height: 100%;
 }
 
 
