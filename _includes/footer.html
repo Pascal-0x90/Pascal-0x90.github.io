@@ -43,16 +43,17 @@
     
     // Detect if the user is cool and uses dark mode
     const htmlEl = document.getElementsByTagName('body')[0];
-    // const img = document.getElementsByTagName('img')[0];
+    const img = document.getElementsByTagName('img')[0];
     const toggleTheme = (theme) => {
         htmlEl.dataset.theme = theme;
-        // try {
-        //   img.dataset.theme = theme;
-        // } catch (err) {
-        //   // Do nothing because we dont care
-        //   // if the page does not have an image.
-        //   //console.log(err);
-        // }
+        try {
+          console.log("Changed cat theme to: ", theme);
+          img.dataset.theme = theme;
+        } catch (err) {
+          // Do nothing because we dont care
+          // if the page does not have an image.
+          //console.log(err);
+        }
         localStorage.setItem("theme", theme);
     }
     if (window.matchMedia('(prefers-color-scheme: dark)').matches && localStorage.getItem("theme") == "dark") {
