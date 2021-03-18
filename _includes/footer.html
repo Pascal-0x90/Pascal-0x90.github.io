@@ -46,7 +46,11 @@
     const img = document.getElementsByTagName('img')[0];
     const toggleTheme = (theme) => {
         htmlEl.dataset.theme = theme;
-        img.dataset.theme = theme;
+        try {
+          img.dataset.theme = theme;
+        } catch (err) {
+          console.log(err);
+        }
         localStorage.setItem("theme", theme);
     }
     if (window.matchMedia('(prefers-color-scheme: dark)').matches && localStorage.getItem("theme") == "dark") {
